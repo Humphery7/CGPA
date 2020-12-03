@@ -66,7 +66,8 @@ for yr in range(1,sessions+1):
     print(total_units, 'total units')
     CGPA = (total/total_units)
     print(f'{round(CGPA,2)} grade point for session {yr}')
-
+    print()
+    
 print()
 print(name, Faculty, Department)
 print(f'{round(CGPA,2)}/{total_points} cummulative CGPA')
