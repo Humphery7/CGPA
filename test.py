@@ -1,7 +1,5 @@
 from functools import reduce
 
-
-
 #ensure part of module is not executed elsewhere
 if __name__ == '__main__':
 
