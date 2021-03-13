@@ -51,13 +51,13 @@ if __name__ == '__main__':
                 for result in Results:
                     if result >= 70:
                         result = 5
-                    elif result < 70 and result > 59:
+                    elif 59 < result < 70:
                         result = 4
-                    elif result < 60 and result > 49:
+                    elif 49 < result < 60:
                         result = 3
-                    elif result < 50 and result > 44:
+                    elif 44 < result < 50:
                         result = 2
-                    elif result < 45 and result > 39:
+                    elif 39 < result < 45:
                         result = 1
                     else:
                         result = 0
